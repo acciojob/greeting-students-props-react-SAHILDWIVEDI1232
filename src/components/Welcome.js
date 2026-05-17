@@ -1,5 +1,5 @@
 // write code for Welcome component here
-imp[ort React from "react"
+import React from "react"
 function Welcome({ name }) {
   return (
     <div>
