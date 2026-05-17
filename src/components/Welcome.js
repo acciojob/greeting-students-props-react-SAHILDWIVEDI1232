@@ -1,10 +1,13 @@
 // write code for Welcome component here
-function Welcome({name}){
-  return(
-    <h1>
-    Hey !{name}</h1>
-  <h2>
-    Welcome to School.
-     <p>We are happy to have you here.</p>
-    </h2>
-  export deafault Welcome
+
+function Welcome({ name }) {
+  return (
+    <div>
+      <h1>Hey {name}!</h1>
+      <h2>Welcome to School.</h2>
+      <p>We are happy to have you here.</p>
+    </div>
+  );
+}
+
+export default Welcome;
